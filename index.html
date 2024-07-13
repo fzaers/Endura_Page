@@ -47,8 +47,8 @@
       var unityInstance = null;
       
 
-      canvasContainer.style.width = "1600px";
-      canvasContainer.style.height = "900px";
+      canvasContainer.style.width = "1280px";
+      canvasContainer.style.height = "720px";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
@@ -94,6 +94,7 @@
 	  }
 	  	  
 	  window.onunload = ExitSession;
+	  window.onclose = ExitSession;
 	    
     </script>
   </body>
